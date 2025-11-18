@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(221, 18, 18);
+;
+}
+
+#heading {
+    color: rgb(16, 16, 16);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+    border-radius: 20%;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
