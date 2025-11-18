@@ -2,16 +2,92 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(221, 18, 18);
-;
 }
 
-#heading {
-    color: rgb(16, 16, 16);
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+h1, #heading {
+    color: #2c3e50;
+    text-align: center;
     padding: 20px;
-    display: flex;
-    justify-content: center;
-    padding: 10%;
-    border-radius: 20%;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+div {
+    padding: 20px;
+    margin: 15px;
+}
+
+img {
+    margin: 20px auto;
+    display: block;
+    max-width: 400px;
+}
+
+table {
+    margin: 20px auto;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+form {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 500px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+input[type="text"], input[type="email"] {
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+ol {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 500px;
+}
+
+li {
+    margin: 10px 0;
+}
+
+.card {
+    background-color: white;
+    border: 2px solid #ddd;
+    border-radius: 12px;
+    padding: 25px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
 }
