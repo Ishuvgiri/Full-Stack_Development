@@ -1,0 +1,42 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background: red;
+    padding: 10px;
+    padding-left: 10px;
+    gap: 20px;
+    color: White;
+    background-color: Black;
+
+    
+
+}
+
+/* .name{
+    display: flex;
+    justify-content: flex-start;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    font-size: 30px;
+} */
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:black ;
+    color: white;
+   
+
+}
+
+#img{
+    height: 300px;
+    width: 300px;
+    border-radius: 200px;
+   
+ }
