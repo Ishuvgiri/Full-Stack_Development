@@ -1,0 +1,46 @@
+{
+  "name": "Professional Portfolio",
+  "version": "1.0.0",
+  "description": "A modern, professional portfolio website showcasing web development skills",
+  "author": "Ishuv Giri",
+  "keywords": [
+    "portfolio",
+    "web-development",
+    "frontend",
+    "fullstack",
+    "javascript",
+    "html",
+    "css"
+  ],
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "live-server --port=8000"
+  },
+  "features": [
+    "Responsive Design",
+    "Dark/Light Theme",
+    "Smooth Animations",
+    "Interactive UI",
+    "Contact Form",
+    "Performance Optimized",
+    "SEO Friendly",
+    "Accessibility Compliant"
+  ],
+  "technologies": {
+    "frontend": [
+      "HTML5",
+      "CSS3",
+      "JavaScript ES6+"
+    ],
+    "libraries": [
+      "Font Awesome",
+      "Google Fonts"
+    ]
+  },
+  "browser_support": {
+    "chrome": "latest",
+    "firefox": "latest",
+    "safari": "latest",
+    "edge": "latest"
+  }
+}
