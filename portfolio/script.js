@@ -647,20 +647,6 @@ class PerformanceOptimizer {
 
 class AccessibilityEnhancer {
     constructor() {
-        this.init();
-    }
-
-    init() {
-        // Skip to main content
-        this.addSkipLink();
-        
-        // Keyboard navigation
-        this.enhanceKeyboardNav();
-        
-        // Focus visible
-        this.addFocusVisible();
-    }
-
     addSkipLink() {
         const skipLink = document.createElement('a');
         skipLink.href = '#home';
@@ -683,7 +669,21 @@ class AccessibilityEnhancer {
         skipLink.addEventListener('blur', () => {
             skipLink.style.left = '-9999px';
         });
+                this.init();
+    }
+
+    init() {
+        // Skip to main content
+        this.addSkipLink();
         
+        // Keyboard navigation
+        this.enhanceKeyboardNav();
+        
+        // Focus visible
+        this.addFocusVisible();
+    }
+
+
         document.body.insertBefore(skipLink, document.body.firstChild);
     }
 
