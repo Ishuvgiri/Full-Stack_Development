@@ -1,0 +1,17 @@
+{
+    "name": "ishuv/week8",
+    "autoload": {
+        "psr-4": {
+            "Ishuv\\Week8\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ishuv",
+            "email": "igneelcanibal@gmail.com"
+        }
+    ],
+    "require": {
+        "jenssegers/blade": "1.4.0"
+    }
+}
